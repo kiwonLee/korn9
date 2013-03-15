@@ -11,8 +11,8 @@ need.packages<-c("pls", # to generate PLS models
 #as an example
 
 #two main functions will be used, which are defined below
-#1) OSC.correction to calculate OSC corrected models
-#2) plot.OSC.results
+#1) OSC.correction 	--> to calculate OSC corrected models
+#2) plot.OSC.results 	--> to plot OSC corrected results
 
 
 #function to carry out orthogonal signal correction-PLS (~OPLS)
