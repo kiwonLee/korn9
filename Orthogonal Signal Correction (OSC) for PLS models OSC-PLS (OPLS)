@@ -29,7 +29,7 @@ OSC.correction<-function(pls.y,pls.data,comp=3,OSC.comp=3,validation = "LOO",...
 	#need to iteratively fit models for each OSC
 	for(i in 1:(OSC.comp+1)){ 
 		data<-OSC.results$data[[i]]
-		tmp.model<-plsr(OSC.results$y[[1]]~., data = data, ncomp = comp, validation = validation)#,...
+		tmp.model<-plsr(OSC.results$y[[1]]~., data = data, ncomp = comp, validation = validation,...)
 		ww<-pls.model$loading.weights[,1]
 		pp<-pls.model$loadings[,1]
 		w.ortho<- pp - crossprod(ww,pp)/crossprod(ww)*ww
