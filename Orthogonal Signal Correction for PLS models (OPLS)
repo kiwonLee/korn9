@@ -1,2 +1,15 @@
 #Orthogonal Signal Correction for PLS models (OPLS)
 #adapted from an example in the book <a href="http://www.springer.com/life+sciences/systems+biology+an+bioinfomatics/book/978-3-642-17840-5">"Chemometrics with R by Ron Wehrens"</a>
+
+#this code requires the following packages"
+need.packages<-c("Rcurl", # to access data in google spreadsheet
+"pls", # to generate PLS models
+"ggplot2" ) # to plot results
+
+
+#get sample data (glycans in humans) from a google spreadsheet
+
+#function to carry out orthogonal signal correction
+#requires package: pls
+#assume this is not yet installed
+
