@@ -1,3 +1,6 @@
+#see updated code base and some examples in the function "test" 
+# https://github.com/dgrapov/devium/blob/master/R/Devium%20PLS%20%20and%20OPLS.r
+
 #Orthogonal Signal Correction for PLS models (OPLS)
 #adapted from an example in the book <a href="http://www.springer.com/life+sciences/systems+biology+an+bioinfomatics/book/978-3-642-17840-5">"Chemometrics with R by Ron Wehrens"</a>
 
